@@ -1,18 +1,19 @@
+// Day 1 - Q1
+// Problem Statement: Write a program to Calculate sum of first N natural numbers.
+
 #include <stdio.h>
 
 int main() {
     int n, sum = 0;
 
-    printf("Enter a number: ");
+    printf("Enter a positive integer: ");
     scanf("%d", &n);
 
-    // Calculate sum from 1 to n
-    for(int i = 1; i <= n; i++) {
-        sum += i; 
+    for (int i = 1; i <= n; ++i) {
+        sum += i;
     }
 
-    // result
-    printf("Sum of first %d natural numbers = %d\n", n, sum);
+    printf("Sum of first %d natural numbers is: %d\n", n, sum);
 
     return 0;
 }
