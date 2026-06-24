@@ -1,5 +1,5 @@
 // Day 23 - Q90
-// Problem Statement:c.
+// Problem Statement: Write a program to Find first repeating character.
 
 #include <stdio.h>
 
@@ -17,6 +17,10 @@ int main() {
         count[str[i]]++;
     }
     
+    printf("No repeating characters found.\n");
+    return 0;
+}
+
     printf("No repeating characters found.\n");
     return 0;
 }
