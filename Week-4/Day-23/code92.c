@@ -1,5 +1,5 @@
 // Day 23 - Q92
-// Problem Statement: Write a program to Find maximum occurring character.
+// Problem Statement:. Write a program to Find maximum occurring character
 
 #include <stdio.h>
 
